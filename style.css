@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+}
+.background{
+    background-color: rgb(245, 217, 221);
+    width:412px;
+}
+
+.nav{
+    background-color: rgb(255, 155, 171);
+    height:25px;
+    padding-top:4px;
+    
+}
+.nav ul{
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+    padding-left:20px;
+
+}
+
+.nav ul li{
+    width:103px;
+}
+
+.nav ul :hover{
+    color: white;
+    font-size: large;
+}
+.heading{
+    font-size: 45px;
+    text-align: center;
+    font-family:Dancing Script;
+    font-weight: bolder;
+    height:60px;
+}
+.pic img{
+    width:412px;
+    
+}
+
+.pic p{
+    font-family: Dancing Script;
+    font-weight: bolder;
+    
+    position: relative;
+    bottom:180px;
+    left:50px;
+    animation:text 2s ease-in-out infinite;
+}
+@keyframes text{
+    from{
+        color:white;
+    }
+    to{
+        color:black;
+    }
+}
