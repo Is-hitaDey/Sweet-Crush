@@ -62,3 +62,14 @@ body{
         color:black;
     }
 }
+
+.lines{
+    display:flex;
+    justify-content:space-around;
+}
+.circle{
+    background-color: rgb(254, 230, 71);
+    height: 60px;
+    width:60px;
+    border-radius:50px;
+}
